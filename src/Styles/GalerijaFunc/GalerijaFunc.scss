@@ -1,0 +1,16 @@
+.Images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+
+  .Images__rowImg {
+    border-radius: 5px;
+    transition: 0.5s;
+    border: 1px solid #cccc;
+  }
+  .Images__rowImg:hover {
+    transform: scale(1.1);
+  }
+}
